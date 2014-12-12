@@ -1,7 +1,15 @@
 
 while
-  play 60  
-  sleep 0.5  
-  play 62  
-  sleep 0.5  
+  2.times do
+    play 60
+    sleep 0.2
+    play 61
+    sleep 0.2
+    play 62
+    sleep 0.2
+    play 63
+    sleep 0.2
+    play 64
+    sleep 0.2
+    play 65
 end
