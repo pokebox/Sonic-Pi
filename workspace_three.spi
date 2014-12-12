@@ -1,14 +1,7 @@
-define :foo do
-  play 50
-  sleep 1
-  play 55
-  sleep 0.5
+define :my_player do |n|
+  play n
 end
 
-foo
-
-sleep 1
-
-2.times do
-  foo
-end
+my_player 80
+sleep 0.5
+my_player 90
