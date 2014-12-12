@@ -4,8 +4,9 @@ sleep 0.5
 play :D
 sleep 0.5
 play :E
-play :C3
+sleep 1
+play :C6
 sleep 0.5
-play :D3
+play :D6
 sleep 0.5
-play :E4
+play :E6
