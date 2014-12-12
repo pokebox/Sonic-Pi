@@ -1,4 +1,11 @@
 loop do
-  sample :loop_amen
-  sleep sample_duration :loop_amen
+
+  if one_in(2)
+    sample :drum_heavy_kick
+  else
+    sample :drum_cymbal_closed
+  end
+  
+  sleep 0.5
+  
 end
