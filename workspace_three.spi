@@ -1,4 +1,5 @@
-loop do
-  play choose([60, 65, 72])
-  sleep 1
-end
+play 50
+sleep 0.5
+sample :elec_plip
+sleep 0.5
+play 62
