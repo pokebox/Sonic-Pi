@@ -1,2 +1,13 @@
-s = play 50
-control s
+in_thread do
+  loop do
+    cue :tick
+    sleep 1
+  end
+end
+
+in_thread do
+  loop do
+    sync :tick
+    sample :drum_heavy_kick
+  end
+end
