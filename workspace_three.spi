@@ -1,4 +1,4 @@
 loop do
-  play choose([60, 65, 72])
+  play dice(6)
   sleep 1
 end
