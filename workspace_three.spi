@@ -1,1 +1,3 @@
-play 60, amp: 30
+play 60, amp: 0.5
+sleep 0.5
+play 65
