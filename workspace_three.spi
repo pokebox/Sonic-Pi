@@ -1,9 +1,9 @@
 # Welcome to Sonic Pi v2.1.1
-play :C
+play :C1
 sleep 0.5
-play :D
+play :D2
 sleep 0.5
-play :E
+play :E3
 sleep 1
 play :C6
 sleep 0.5
