@@ -1,2 +1,10 @@
 # Welcome to Sonic Pi v2.1.1
-fm
+in_thread do  
+  with_synth "saw_beep"  
+  2.times do  
+    play 60  
+    sleep 0.5  
+    play 67  
+    sleep 0.5  
+  end  
+end  
