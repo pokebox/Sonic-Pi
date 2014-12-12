@@ -1,4 +1,4 @@
-with_debug 1
+
 2.times do  
   play 60  
   sleep 0.5  
