@@ -1,7 +1,13 @@
-define :my_player do |n|
-  play n
+define :chord_player do |root, repeats| 
+  repeats.times do
+    play chord(root, :minor), release: 0.3
+    sleep 0.5
+  end
 end
 
-my_player 80
+chord_player :e3, 2
 sleep 0.5
-my_player 90
+chord_player :a3, 3
+chord_player :g3, 4
+sleep 0.5
+chord_player :e3, 3
