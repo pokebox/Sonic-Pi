@@ -1,5 +1,5 @@
 
-1.times do  
+0.times do  
   play 60  
   sleep 0.5  
   play 62  
