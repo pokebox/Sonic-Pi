@@ -1,13 +1,1 @@
-in_thread do
-  loop do
-    cue :sss
-    sleep 0.2
-  end
-end
-
-in_thread do
-  loop do
-    sync :sss
-    sample :drum_heavy_kick
-  end
-end
+play [52, 55, 59]
