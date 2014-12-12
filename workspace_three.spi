@@ -1,1 +1,3 @@
-play 60, release: 2
+play 60, attack: 2
+sleep 3
+play 65, attack: 0.5
