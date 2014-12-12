@@ -1,1 +1,1 @@
-sample :loop_amen, rate: 1
+new_sample_duration = (1 / rate) * sample_duration 
