@@ -1,1 +1,1 @@
-sample :loop_amen, attack: 0.3
+sample :loop_amen, start: 0.5
