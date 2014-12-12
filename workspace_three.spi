@@ -1,15 +1,7 @@
-in_thread(name: :bass) do
+in_thread do
   loop do
-    use_synth :prophet
-    play chord(:e2, :m7).choose, release: 0.6
-    sleep 0.5
-  end
-end
-
-in_thread(name: :drums) do
-  loop do
-    sample :elec_snare
-    sleep 1
+    sample :loop_amen
+    sleep sample_duration :loop_amen
   end
 end
  
