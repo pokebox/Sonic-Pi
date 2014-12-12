@@ -1,7 +1,6 @@
-#in_thread do
+in_thread(name: :amen) do
   loop do
     sample :loop_amen
     sleep sample_duration :loop_amen
   end
-#nd
- 
+end
