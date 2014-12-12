@@ -1,4 +1,4 @@
-do
+5.times do
   play 50
   sleep 0.5
   sample :elec_plip
