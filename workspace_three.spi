@@ -2,5 +2,13 @@ define :foo do
   play 50
   sleep 1
   play 55
-  sleep 2
+  sleep 0.5
+end
+
+foo
+
+sleep 1
+
+2.times do
+  foo
 end
