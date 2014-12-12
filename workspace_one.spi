@@ -1,5 +1,5 @@
 
-while
+in_thread do
   2.times do
     play 60
     sleep 0.2
@@ -15,4 +15,6 @@ while
     sleep 0.2
     play 66
     sleep 0.2
+  end
+  
 end
