@@ -1,6 +1,6 @@
-in_thread(name: :amen) do
-  loop do
-    sample :loop_amen
-    sleep sample_duration :loop_amen
-  end
+define :foo do
+  play 50
+  sleep 1
+  play 55
+  sleep 2
 end
