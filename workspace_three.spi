@@ -1,1 +1,1 @@
-sample :loop_amen, finish: 0.5
+sample :loop_amen, start: 0.4, finish: 0.6
