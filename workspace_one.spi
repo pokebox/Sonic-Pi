@@ -12,4 +12,7 @@ while
     play 64
     sleep 0.2
     play 65
+    sleep 0.2
+    play 66
+    sleep 0.2
 end
