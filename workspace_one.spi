@@ -1,4 +1,4 @@
-use_synth :supersaw
+with_debug
 2.times do  
   play 60  
   sleep 0.5  
