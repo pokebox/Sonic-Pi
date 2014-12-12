@@ -1,3 +1,2 @@
-s = play 50, release: 8
-sleep 2
-s, note: 62
+s = play 50
+control s
