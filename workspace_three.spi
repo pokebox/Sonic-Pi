@@ -1,13 +1,13 @@
 in_thread do
   loop do
-    cue :tick
+    cue :12
     sleep 0.2
   end
 end
 
 in_thread do
   loop do
-    sync :tick
+    sync :12
     sample :drum_heavy_kick
   end
 end
