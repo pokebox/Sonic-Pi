@@ -1,4 +1,4 @@
-use_synth :beep
+use_synth :mod_beep
 2.times do  
   play 60  
   sleep 0.5  
