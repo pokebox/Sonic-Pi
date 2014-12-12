@@ -1,1 +1,1 @@
-play_pattern_timed chord(:E3, :m13), [0.25, 0.5]
+play_pattern_timed chord(:E3), 0.25
