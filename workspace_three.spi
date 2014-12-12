@@ -7,7 +7,7 @@ end
 
 in_thread do
   loop do
-    sync :tick
+    #sync :tick
     sample :drum_heavy_kick
   end
 end
