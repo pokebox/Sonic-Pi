@@ -3,7 +3,7 @@ play :C1
 sleep 0.5
 play :D2
 sleep 0.5
-play :E3
+play :Es3
 sleep 1
 play :C6
 sleep 0.5
