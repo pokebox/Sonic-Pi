@@ -19,3 +19,5 @@ define :au1 do
   end
   play_chord pokemon1d,sustain: 0.2
 end
+
+au1
