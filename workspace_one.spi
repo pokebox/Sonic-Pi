@@ -1,0 +1,36 @@
+
+in_thread do
+  2.times do
+    play 60
+    sleep 0.2
+    play 61
+    sleep 0.2
+    play 62
+    sleep 0.2
+    play 63
+    sleep 0.2
+    play 64
+    sleep 0.2
+    play 65
+    sleep 0.2
+    play 66
+    sleep 0.2
+  end
+  2.times do
+    use_synth :mod_dsaw
+    play 60
+    sleep 0.2
+    play 61
+    sleep 0.2
+    play 62
+    sleep 0.2
+    play 63
+    sleep 0.2
+    play 64
+    sleep 0.2
+    play 65
+    sleep 0.2
+    play 66
+    sleep 0.2
+  end
+end
