@@ -20,5 +20,5 @@ plb 0.2
 3.times do
   plc 0.3
 end
-play_chord [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3],sustain: 0.5
+play_chord [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3],sustain: 0.2
 #play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
