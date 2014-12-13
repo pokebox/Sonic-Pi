@@ -13,12 +13,12 @@ define :plc do |ts|
   play_chord [:Cs7,:As6,:Fs6,:As5,:Fs5,:Fs3]      #,sustain: ts,decay: 0.1
   sleep ts
 end
-pla 0.3
-plb 0.2
 pla 0.2
-plb 0.2
+plb 0.1
+pla 0.1
+plb 0.1
 3.times do
-  plc 0.3
+  plc 0.2
 end
 play_chord [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3],sustain: 0.2
 #play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
