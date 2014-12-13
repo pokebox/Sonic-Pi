@@ -1,16 +1,19 @@
 # 小星星 By PokeBox
 use_synth_defaults release: 0.5, amp: 0.31, cutoff: 90
 use_synth :fm
+a = [:C7,:Gs6,:Ds6,:C6,:Gs5,:Gs3]
+b = [:C7,:Ds6,:C6,:Gs5,:Ds5,:Gs3]
+c = [:Cs7,:As6,:Fs6,:As5,:Fs5,:Fs3]
 define :pla do |ts|
-  play_chord [:C7,:Gs6,:Ds6,:C6,:Gs5,:Gs3]      #,sustain: ts,decay: 0.1
+  play_chord a
   sleep ts
 end
 define :plb do |ts|
-  play_chord [:C7,:Ds6,:C6,:Gs5,:Ds5,:Gs3]      #,sustain: ts,decay: 0.1
+  play_chord b
   sleep ts
 end
 define :plc do |ts|
-  play_chord [:Cs7,:As6,:Fs6,:As5,:Fs5,:Fs3]      #,sustain: ts,decay: 0.1
+  play_chord c
   sleep ts
 end
 pla 0.2
@@ -21,4 +24,3 @@ plb 0.1
   plc 0.2
 end
 play_chord [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3],sustain: 0.2
-#play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
