@@ -1,19 +1,21 @@
 # Pokemon Audio By PokeBox
 use_synth_defaults release: 0.5, amp: 0.31, cutoff: 90
 use_synth :fm
-pokemon1a = [:C7,:Gs6,:Ds6,:C6,:Gs5,:Gs3]
-pokemon1b = [:C7,:Ds6,:C6,:Gs5,:Ds5,:Gs3]
-pokemon1c = [:Cs7,:As6,:Fs6,:As5,:Fs5,:Fs3]
-pokemon1d = [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3]
-define :pl do |title,time|
-  play_chord title
-  sleep time
+define :au1 do
+  pokemon1a = [:C7,:Gs6,:Ds6,:C6,:Gs5,:Gs3]
+  pokemon1b = [:C7,:Ds6,:C6,:Gs5,:Ds5,:Gs3]
+  pokemon1c = [:Cs7,:As6,:Fs6,:As5,:Fs5,:Fs3]
+  pokemon1d = [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3]
+  define :pl do |title,time|
+    play_chord title
+    sleep time
+  end
+  pl pokemon1a,0.2
+  pl pokemon1b,0.1
+  pl pokemon1a,0.1
+  pl pokemon1b,0.1
+  3.times do
+    pl pokemon1c,0.2
+  end
+  play_chord pokemon1d,sustain: 0.2
 end
-pl pokemon1a,0.2
-pl pokemon1b,0.1
-pl pokemon1a,0.1
-pl pokemon1b,0.1
-3.times do
-  pl pokemon1c,0.2
-end
-play_chord pokemon1d,sustain: 0.2
