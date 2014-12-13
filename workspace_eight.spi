@@ -13,5 +13,5 @@ in_thread do
   play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
 end
 play_pattern_timed [:C4,:C4,:G4,:G4,:A4,:A4],[0.5] #115566
-play :G4, sustain: 1
+play :G4, sustain: 0.5
 #play_pattern_timed [:C4,:C4,:G4,:G4],[0.5] #5
