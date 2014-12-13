@@ -1,5 +1,5 @@
 # Welcome to Sonic Pi v2.1.1
-#use_synth_defaults release: 0.5, amp: 0.7, cutoff: 90
+use_synth_defaults release: 0.5, amp: 1, cutoff: 90
 use_synth :beep
 ##C D E F G A B
 ##1 2 3 4 5 6 7
