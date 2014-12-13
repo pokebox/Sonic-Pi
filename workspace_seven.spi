@@ -7,4 +7,5 @@ end
 pla 0.3
 sleep 0.7
 pla 0.2
+pla 0.2
 #play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
