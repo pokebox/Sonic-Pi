@@ -4,6 +4,7 @@ use_synth :fm
 a = [:C7,:Gs6,:Ds6,:C6,:Gs5,:Gs3]
 b = [:C7,:Ds6,:C6,:Gs5,:Ds5,:Gs3]
 c = [:Cs7,:As6,:Fs6,:As5,:Fs5,:Fs3]
+d = [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3]
 define :pl do |title,ts|
   play_chord title
   sleep ts
@@ -15,4 +16,4 @@ pl b,0.1
 3.times do
   pl c,0.2
 end
-play_chord [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3],sustain: 0.2
+play_chord d,sustain: 0.2
