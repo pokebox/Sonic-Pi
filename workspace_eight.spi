@@ -3,7 +3,7 @@ use_synth_defaults release: 0.5, amp: 1, cutoff: 90
 use_synth :tb303
 ##C D E F G A B
 ##1 2 3 4 5 6 7
-define :back do
+define :back do ##副歌前段
   play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
   play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
   play_pattern_timed [:C3,:A3,:F3,:A3],[0.25] #1646
@@ -13,7 +13,12 @@ define :back do
     play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
   end
 end
-
+define :main do
+  play_pattern_timed [:C4,:C4,:G4,:G4,:A4,:A4],[0.5] #115566
+  play_pattern_timed [:G4],[1],sustain: 0.2
+  play_pattern_timed [:F4,:F4,:E4,:E4,:D4,:D4],[0.5] #443322
+  play_pattern_timed [:C4],[1],sustain: 0.2
+end
 in_thread do    ##后台播放副歌部分
   back
   4.times do
@@ -22,15 +27,9 @@ in_thread do    ##后台播放副歌部分
   end
 end
 ##主旋律
-play_pattern_timed [:C4,:C4,:G4,:G4,:A4,:A4],[0.5] #115566
-play_pattern_timed [:G4],[1],sustain: 0.2
-play_pattern_timed [:F4,:F4,:E4,:E4,:D4,:D4],[0.5] #443322
-play_pattern_timed [:C4],[1],sustain: 0.2
+main
 2.times do
   play_pattern_timed [:G4,:G4,:F4,:F4,:E4,:E4],[0.5] #554433
   play_pattern_timed [:D4],[1],sustain: 0.2
 end
-play_pattern_timed [:C4,:C4,:G4,:G4,:A4,:A4],[0.5] #115566
-play_pattern_timed [:G4],[1],sustain: 0.2
-play_pattern_timed [:F4,:F4,:E4,:E4,:D4,:D4],[0.5] #443322
-play_pattern_timed [:C4],[1],sustain: 0.5
+main
