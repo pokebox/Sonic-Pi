@@ -20,4 +20,5 @@ plb 0.2
 plc 0.3
 plc 0.3
 plc 0.3
+play_chord [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3]
 #play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
