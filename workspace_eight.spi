@@ -23,6 +23,6 @@ play_pattern_timed [:G4],[1],sustain: 0.2
 play_pattern_timed [:F4,:F4,:E4,:E4,:D4,:D4,:C4],[0.5] #4433221
 sleep 0.5
 2.times do
-  play_pattern_timed [:G4,:G4,:F4,:F4,:E4,:E4,:D4],[0.5] #5544332
-  sleep 0.5
+  play_pattern_timed [:G4,:G4,:F4,:F4,:E4,:E4],[0.5] #554433
+  play_pattern_timed [:D4],[1],sustain: 0.2
 end
