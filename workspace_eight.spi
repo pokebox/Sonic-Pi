@@ -1,6 +1,6 @@
 # 小星星 By PokeBox
 use_synth_defaults release: 0.5, amp: 1, cutoff: 90
-use_synth :dsaw
+use_synth :dull_bell
 ##C D E F G A B
 ##1 2 3 4 5 6 7
 define :back do ##副歌前段
