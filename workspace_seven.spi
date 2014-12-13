@@ -2,7 +2,7 @@
 use_synth_defaults release: 0.5, amp: 1, cutoff: 90
 use_synth :fm
 define :pla do |ts|
-  play_chord [:C7,:C6,:Gs3,:Gs5,:Gs6,:Ds6],sustain: ts,decay: 0.1
+  play_chord [:C7,:C6,:Gs3,:Gs5,:Gs6,:Ds6]      #,sustain: ts,decay: 0.1
 end
 pla 0.3
 sleep 0.7
