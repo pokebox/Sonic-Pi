@@ -15,6 +15,7 @@ in_thread do    ##后台播放副歌部分
 end
 ##主旋律
 play_pattern_timed [:C4,:C4,:G4,:G4,:A4,:A4],[0.5] #115566
-play :G4, sustain: 0.2,sleep 1
+#play :G4, sustain: 0.2
 #sleep 1
+play_pattern_timed [:G4],[1],sustain: 0.2
 play_pattern_timed [:F4,:F4,:E4,:E4,:D4,:D4,:C4],[0.5] #5
