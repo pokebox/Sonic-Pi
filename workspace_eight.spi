@@ -12,7 +12,7 @@ in_thread do    ##后台播放副歌部分
     play_pattern_timed [:B2,:G3,:D3,:G3],[0.25] #7525
     play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
   end
-  2.times do
+  4.times do
     play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
     play_pattern_timed [:B2,:G3,:D3,:G3],[0.25] #7525
   end
