@@ -5,9 +5,9 @@ pokemon1a = [:C7,:Gs6,:Ds6,:C6,:Gs5,:Gs3]
 pokemon1b = [:C7,:Ds6,:C6,:Gs5,:Ds5,:Gs3]
 pokemon1c = [:Cs7,:As6,:Fs6,:As5,:Fs5,:Fs3]
 pokemon1d = [:C7,:Gs6,:Ds6,:Gs5,:Ds5,:Gs3]
-define :pl do |title,ts|
+define :pl do |title,time|
   play_chord title
-  sleep ts
+  sleep time
 end
 pl pokemon1a,0.2
 pl pokemon1b,0.1
