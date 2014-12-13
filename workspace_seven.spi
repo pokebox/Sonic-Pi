@@ -1,0 +1,5 @@
+# 小星星 By PokeBox
+use_synth_defaults release: 0.5, amp: 1, cutoff: 90
+use_synth :fm
+play_chord [:C7,:C6,:Gs3,:Gs5,:Gs6,:Ds6]
+#play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
