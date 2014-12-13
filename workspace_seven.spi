@@ -2,10 +2,22 @@
 use_synth_defaults release: 0.5, amp: 1, cutoff: 90
 use_synth :fm
 define :pla do |ts|
-  play_chord [:C7,:C6,:Gs3,:Gs5,:Gs6,:Ds6]      #,sustain: ts,decay: 0.1
+  play_chord [:C7,:Gs6,:Ds6,:C6,:Gs5,:Gs3]      #,sustain: ts,decay: 0.1
   sleep ts
 end
-pla 0.5
-pla 0.2
-pla 0.2
+define :plb do |ts|
+  play_chord [:C7,:Ds6,:C6,:Gs5,:Ds5,:Gs3]      #,sustain: ts,decay: 0.1
+  sleep ts
+end
+define :plc do |ts|
+  play_chord [:Cs7,:As6,:Fs6,:As5,:Fs5,:Fs3]      #,sustain: ts,decay: 0.1
+  sleep ts
+end
+pla 0.3
+plb 0.1
+pla 0.1
+plb 0.1
+plc 0.3
+plc 0.3
+plc 0.3
 #play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
