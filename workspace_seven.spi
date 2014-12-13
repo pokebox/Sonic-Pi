@@ -4,5 +4,5 @@ use_synth :fm
 define :pla do |ts|
   play_chord [:C7,:C6,:Gs3,:Gs5,:Gs6,:Ds6],sustain: ts
 end
-pla 2
+pla 0.5
 #play_pattern_timed [:C3,:G3,:E3,:G3],[0.25] #1535
