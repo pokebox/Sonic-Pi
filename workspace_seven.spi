@@ -14,9 +14,9 @@ define :plc do |ts|
   sleep ts
 end
 pla 0.3
-plb 0.1
-pla 0.1
-plb 0.1
+plb 0.2
+pla 0.2
+plb 0.2
 plc 0.3
 plc 0.3
 plc 0.3
