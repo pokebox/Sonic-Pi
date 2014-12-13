@@ -1,0 +1,6 @@
+#play chord(:A7, '11+')
+
+#play chord(:E3, :m7) 
+#play chord(:E3, :minor) 
+#play chord(:E3, :dim7) 
+play_pattern_timed chord(:E3, :m13), [0.25, 0.5]
