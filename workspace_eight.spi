@@ -37,4 +37,4 @@ end
 play_pattern_timed [:C4,:C4,:G4,:G4,:A4,:A4],[0.5] #115566
 play_pattern_timed [:G4],[1],sustain: 0.2
 play_pattern_timed [:F4,:F4,:E4,:E4,:D4,:D4],[0.5] #443322
-play_pattern_timed [:C4],[1],sustain: 0.2
+play_pattern_timed [:C4],[1],sustain: 0.5
